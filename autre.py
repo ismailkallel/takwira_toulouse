@@ -26,7 +26,7 @@ def html(body):
 
 def card_begin_str(header):
     return (
-        "<style>div.card{padding: 5px 20px 5px 10px;background-color:white;border-radius: 5px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}</style>"
+        "<style>div.card{padding: 5px 20px 5px 10px;border-radius: 5px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}</style>"
         '<div class="card">'
         '<div class="container">'
         f"<h3><b>{header}</b></h3>"
